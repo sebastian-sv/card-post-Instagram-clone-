@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  background-color:#FDFDFF;
+  font-family: 'Poppins', sans-serif;
+}
+.card-post{
+  width:100%;
+  max-width:380px;
+  background:#FFFFFF;
+  box-shadow:0px 0px 35px -23px rgba(0, 0, 0, 0.7);
+  padding:1.7em;
+  margin:60px auto;
+  overflow:hidden;
+}
+.card-post .card-header-post{
+  width:100%;
+  height:50px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-header-post .info-user-post{
+  display: flex;
+  align-items:center;
+  grid-gap:0.5em;
+}
+.info-user-post .photo-profile-user img{
+  width:37px;
+  height:37px;
+  border-radius:50%;
+  object-fit: cover;
+  object-position: center;
+}
+.card-header-post .more-options img{
+  width:10px;
+  margin-top:-3px;
+}
+.name-user{
+  margin-top:-17px;
+}
+.info-user-post .name-user b{
+  font-size:12px;
+  font-weight:600;
+  text-transform: capitalize;
+}
+.card-post .card-body-post img{
+  width:100%;
+  height:auto;
+  max-height:400px;
+  border-radius:5px;
+  object-fit:cover;
+  object-position: center;
+}
+.card-footer .card-reactions-user{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:10px 0;
+}
+.card-reactions-user .section-1 img{
+  margin:0 2px;
+}
+.card-reactions-user img{
+  width:24px;
+  transition: all .3s ease-in;
+}
+.card-footer .add-comment-user{
+  width:100%;
+  display: flex;
+  justify-content:flex-start;
+  align-items:center;
+  grid-gap:0.4em;
+}
+.add-comment-user .photo-user-post img{
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit:cover;
+  object-position: center;
+}
+.box-form-coment{
+  width:100%;
+}
+.add-comment-user .box-form-coment form{
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.box-form-coment form input{
+  width:100%;
+  height:43px;
+  border:none;
+  padding:0px 12px;
+  outline: none;
+  font-size:11px;
+  font-weight:400;
+  margin-top:-0px;
+  font-family: 'Poppins', sans-serif;
+}
+form input::placeholder{
+  font-weight:300;
+  color:#333;
+}
+form button{
+  width:40px;
+  height:40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:none;
+  margin-left:5px;
+  background:none;
+  font-size:27px;
+}
